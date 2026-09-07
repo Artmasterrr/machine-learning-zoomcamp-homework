@@ -1,0 +1,16 @@
+[project]
+name = "machine-learning-zoomcamp-homework"
+version = "0.1.0"
+description = "Zoomcamp homeworks"
+authors = [
+    { name = "Artmasterrr", email = "artmasterrr@hotmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+machine-learning-zoomcamp-homework = "machine_learning_zoomcamp_homework:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
